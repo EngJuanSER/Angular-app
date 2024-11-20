@@ -41,7 +41,7 @@
                 },
                 {
                   "type": "anyComponentStyle",
-                  "maximumWarning": "60",
+                  "maximumWarning": "60kb",
                   "maximumError": "120kB"
                 }
               ],
@@ -89,6 +89,9 @@
             ],
             "scripts": []
           }
+        },
+        "deploy": {
+          "builder": "angular-cli-ghpages:deploy"
         }
       }
     }
