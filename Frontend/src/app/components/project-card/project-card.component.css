@@ -1,0 +1,20 @@
+.icon-size {
+    width: 24px;
+    height: 24px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  
+.w-full.max-w-sm {
+  animation: fadeIn 1s ease-out;
+}
+
+.hover-animate:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+
+  
+}

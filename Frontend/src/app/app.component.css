@@ -1,0 +1,61 @@
+/* app.component.css */
+
+/* Estilos del telón */
+.curtain {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #150016; /* primary */
+  transform: translateY(-100%);
+  transition: transform 0.8s ease-in-out;
+  z-index: 1000;
+  border-bottom-left-radius: 20;
+  border-bottom-right-radius: 20px;
+}
+
+/* Telón bajando */
+.curtain.out {
+  transform: translateY(0);
+}
+
+/* Telón subiendo */
+.curtain.in {
+  transform: translateY(-100%);
+}
+
+/* Estilos del nombre de la ruta */
+.route-name {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  font-size: 3rem;
+  font-weight: bold;
+  text-transform: capitalize;
+  z-index: 1001;
+  opacity: 0;
+  animation: fadeIn 0.5s forwards;
+  border-bottom: 4px solid white;
+  padding: 15px 25px;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+@keyframes fadeIn {
+  to {
+    opacity: 1;
+  }
+}
+/* Spinner personalizado usando Tailwind */
+.spinner {
+  @apply p-1 animate-spin drop-shadow-lg bg-gradient-to-bl from-primary via-secondary to-accent1 w-6 h-6 aspect-square rounded-full;
+}
+
+.spinner-inner {
+  @apply rounded-full h-full w-full bg-soft dark:bg-secondary;
+}

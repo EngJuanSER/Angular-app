@@ -21,4 +21,8 @@
   .animate-fade-in-delay {
     animation: fade-in 1s ease-out 0.5s forwards;
   }
+
+  #left-pupil, #right-pupil {
+    transition: transform 0.1s ease-out;
+  }
 }

@@ -1,3 +1,13 @@
+<!-- app.component.html -->
 <app-navbar></app-navbar>
-<app-home></app-home>
 
+<!-- Telón de transición -->
+<div class="curtain" [ngClass]="animationState"></div>
+<div class="route-name" *ngIf="showRouteName">
+  <div class="spinner">
+    <div class="spinner-inner"></div>
+  </div>
+  {{ currentRoute }}
+</div>
+
+<router-outlet></router-outlet>

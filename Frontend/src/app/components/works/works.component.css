@@ -1,0 +1,43 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer utilities {
+  @keyframes fade-in {
+    from {
+      opacity: 0;
+      transform: translateY(20px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+
+  .animate-fade-in {
+    animation: fade-in 1s ease-out forwards;
+  }
+
+    @keyframes slide-in {
+        from {
+            opacity: 0;
+            transform: translateX(-20px);
+        }
+        to {
+            opacity: 1;
+            transform: translateX(0);
+        }
+    }
+
+    .animate-slide-in {
+        animation: slide-in 1s ease-out forwards;
+    }
+    .works {
+      width: 100%;
+      height: 100%;
+      background-image: radial-gradient(circle, #FFE3D8, transparent 20%, #845162);
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-color: #FFE3D8;
+    }  
+}
