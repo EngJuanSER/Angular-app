@@ -25,7 +25,6 @@
   transform: translateY(-100%);
 }
 
-/* Estilos del nombre de la ruta */
 .route-name {
   position: fixed;
   top: 50%;
@@ -51,11 +50,10 @@
     opacity: 1;
   }
 }
-/* Spinner personalizado usando Tailwind */
 .spinner {
   @apply p-1 animate-spin drop-shadow-lg bg-gradient-to-bl from-primary via-secondary to-accent1 w-6 h-6 aspect-square rounded-full;
 }
 
 .spinner-inner {
-  @apply rounded-full h-full w-full bg-soft dark:bg-secondary;
+  @apply rounded-full h-full w-full bg-primary;
 }
