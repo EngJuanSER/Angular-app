@@ -19,22 +19,13 @@ export class AppComponent {
   constructor(private router: Router) {}
 
   ngOnInit() {
-    // Iniciar la animación al cargar la aplicación
     this.animationState = 'out';
     this.showRouteName = true;
     this.currentRoute = this.capitalizeRoute(this.router.url.replace('/', '') || 'Home');
 
-    setTimeout(() => {
-      this.animationState = 'in';
-      setTimeout(() => {
-        this.showRouteName = false;
-      }, 250);
-    }, 1000);
-
     this.router.events.subscribe(event => {
       if (event instanceof NavigationStart) {
         this.currentRoute = this.capitalizeRoute(event.url.replace('/', ''));
-        this.animationState = 'out';
         this.showRouteName = true;
       }
 
@@ -44,7 +35,7 @@ export class AppComponent {
           setTimeout(() => {
             this.showRouteName = false;
           }, 250);
-        }, 800);
+        }, 400);
       }
     });
   }

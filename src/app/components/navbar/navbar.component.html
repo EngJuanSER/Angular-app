@@ -1,49 +1,47 @@
-<nav class="fixed top-0 w-full bg-primary shadow-md z-50">
-  <div class="container mx-auto flex items-center justify-between p-4">
-    <!-- Ícono del Portafolio -->
-    <div class="flex-shrink-0">
-      <a href="home" class="text-soft text-3xl">
-        <!-- SVG del Portafolio -->
-        
-      </a>
+<nav class="fixed top-0 w-full bg-primary shadow-transparent z-50">
+  <div class="container max-w-2xl mx-auto p-6">
+    <div class="flex items-center justify-between">
+      <div class="flex-shrink-0">
+        <a href="home" class="text-soft text-4xl">
+          <!-- SVG del Portafolio -->
+        </a>
+      </div>
+
+      <!-- Enlaces Centrados -->
+      <div class="hidden md:flex space-x-8 absolute left-1/2 transform -translate-x-1/2">
+        <a href="home" class="text-soft hover:text-accent1 transition-colors duration-300 text-lg">Home</a> 
+        <a href="works" class="text-soft hover:text-accent1 transition-colors duration-300 text-lg">Works</a> 
+        <a href="about" class="text-soft hover:text-accent1 transition-colors duration-300 text-lg">About</a> 
+      </div>
+
+      <!-- Iconos de Redes Sociales -->
+      <div class="flex space-x-4">
+        <a href="https://github.com/EngJuanSER" target="_blank" class="text-soft hover:text-accent1 transition-colors duration-300 text-2xl"> 
+          <i class="fab fa-github"></i>
+        </a>
+        <a href="https://linkedin.com/in/juan-serrano-3a97311b7/" target="_blank" class="text-soft hover:text-accent1 transition-colors duration-300 text-2xl"> 
+          <i class="fab fa-linkedin"></i>
+        </a>
+        <a href="https://www.instagram.com/juanchitoser._/" target="_blank" aria-label="Instagram" class="text-soft hover:text-accent1 transition-colors duration-300 text-2xl"> 
+          <i class="fab fa-instagram"></i>
+        </a>
+      </div>
+
+      <button class="md:hidden text-soft" (click)="toggleMenu()">
+        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" class="w-8 h-8"> <!-- Aumentado el tamaño del botón -->
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" 
+            d="M4 6h16M4 12h16M4 18h16" />
+        </svg>
+      </button>
     </div>
 
-    <!-- Enlaces Centrados -->
-    <div class="hidden md:flex space-x-8 absolute left-1/2 transform -translate-x-1/2">
-      <a href="home" class="text-soft hover:text-accent1 transition-colors duration-300">Home</a>
-      <a href="works" class="text-soft hover:text-accent1 transition-colors duration-300">Works</a>
-      <a href="about" class="text-soft hover:text-accent1 transition-colors duration-300">About</a>
+    <div
+      *ngIf="isMenuOpen"
+      class="md:hidden bg-primary shadow-md transition ease-in-out duration-300"
+    >
+      <a href="home" class="block p-3 text-soft hover:bg-accent2">Home</a> 
+      <a href="works" class="block p-3 text-soft hover:bg-accent2">Works</a> 
+      <a href="about" class="block p-3 text-soft hover:bg-accent2">About</a> 
     </div>
-
-    <!-- Iconos de Redes Sociales -->
-    <div class="flex space-x-4">
-      <a href="https://github.com/EngJuanSER" target="_blank" class="text-soft hover:text-accent1 transition-colors duration-300">
-        <i class="fab fa-github"></i>
-      </a>
-      <a href="https://linkedin.com/in/juan-serrano-3a97311b7/" target="_blank" class="text-soft hover:text-accent1 transition-colors duration-300">
-        <i class="fab fa-linkedin"></i>
-      </a>
-      <a href="https://www.instagram.com/juanchitoser._/" target="_blank" aria-label="Instagram" class="text-soft hover:text-accent1 transition-colors duration-300">
-        <i class="fab fa-instagram"></i>
-      </a>
-    </div>
-
-    <!-- Botón de Menú para Pantallas Pequeñas -->
-    <button class="md:hidden text-soft" (click)="toggleMenu()">
-      <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" class="w-6 h-6">
-        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" 
-          d="M4 6h16M4 12h16M4 18h16" />
-      </svg>
-    </button>
-  </div>
-
-  <!-- Menú Desplegable para Pantallas Pequeñas -->
-  <div
-    *ngIf="isMenuOpen"
-    class="md:hidden bg-primary shadow-md transition ease-in-out duration-300"
-  >
-    <a href="home" class="block p-2 text-soft hover:bg-accent2">Home</a>
-    <a href="works" class="block p-2 text-soft hover:bg-accent2">Works</a>
-    <a href="about" class="block p-2 text-soft hover:bg-accent2">About</a>
   </div>
 </nav>
