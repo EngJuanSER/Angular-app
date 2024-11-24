@@ -18,3 +18,16 @@
 
   
 }
+.border{
+  border-width: 2px;
+}
+
+.lenguages {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 1px;
+  font-size: 13px;
+  color: rgb(73, 73, 73);
+  font-weight: 1000;
+}

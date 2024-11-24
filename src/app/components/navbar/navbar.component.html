@@ -1,33 +1,33 @@
-<nav class="fixed top-0 w-full bg-primary shadow-transparent z-50">
+<nav class="fixed top-0 w-full bg-black shadow-transparent z-50">
   <div class="container max-w-4xl mx-auto p-6">
     <div class="flex items-center justify-between">
       <div class="flex-shrink-0">
-        <a href="home" class="text-soft text-4xl">
+        <a href="home" class="text-white text-4xl">
           <!-- SVG del Portafolio -->
         </a>
       </div>
 
       <!-- Enlaces Centrados -->
       <div class="hidden md:flex space-x-8 absolute left-1/2 transform -translate-x-1/2">
-        <a href="home" class="text-soft hover:text-accent1 transition-colors duration-300 text-lg">Home</a> 
-        <a href="works" class="text-soft hover:text-accent1 transition-colors duration-300 text-lg">Works</a> 
-        <a href="about" class="text-soft hover:text-accent1 transition-colors duration-300 text-lg">About</a> 
+        <a href="home" class="text-white hover:text-gray-500 transition-colors duration-300 text-lg">Home</a> 
+        <a href="works" class="text-white hover:text-gray-500 transition-colors duration-300 text-lg">Works</a> 
+        <a href="about" class="text-white hover:text-gray-500 transition-colors duration-300 text-lg">About</a> 
       </div>
 
       <!-- Iconos de Redes Sociales -->
       <div class="flex space-x-4">
-        <a href="https://github.com/EngJuanSER" target="_blank" class="text-soft hover:text-accent1 transition-colors duration-300 text-2xl"> 
+        <a href="https://github.com/EngJuanSER" target="_blank" class="text-white hover:text-gray-500 transition-colors duration-300 text-2xl"> 
           <i class="fab fa-github"></i>
         </a>
-        <a href="https://linkedin.com/in/juan-serrano-3a97311b7/" target="_blank" class="text-soft hover:text-accent1 transition-colors duration-300 text-2xl"> 
+        <a href="https://linkedin.com/in/juan-serrano-3a97311b7/" target="_blank" class="text-white hover:text-gray-500 transition-colors duration-300 text-2xl"> 
           <i class="fab fa-linkedin"></i>
         </a>
-        <a href="https://www.instagram.com/juanchitoser._/" target="_blank" aria-label="Instagram" class="text-soft hover:text-accent1 transition-colors duration-300 text-2xl"> 
+        <a href="https://www.instagram.com/juanchitoser._/" target="_blank" aria-label="Instagram" class="text-white hover:text-gray-500 transition-colors duration-300 text-2xl"> 
           <i class="fab fa-instagram"></i>
         </a>
       </div>
 
-      <button class="md:hidden text-soft" (click)="toggleMenu()">
+      <button class="md:hidden text-white" (click)="toggleMenu()">
         <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" class="w-8 h-8"> <!-- Aumentado el tamaño del botón -->
           <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" 
             d="M4 6h16M4 12h16M4 18h16" />
@@ -37,11 +37,11 @@
 
     <div
       *ngIf="isMenuOpen"
-      class="md:hidden bg-primary shadow-md transition ease-in-out duration-300"
+      class="md:hidden bg-black shadow-md transition ease-in-out duration-300"
     >
-      <a href="home" class="block p-3 text-soft hover:bg-accent2">Home</a> 
-      <a href="works" class="block p-3 text-soft hover:bg-accent2">Works</a> 
-      <a href="about" class="block p-3 text-soft hover:bg-accent2">About</a> 
+      <a href="home" class="block p-3 text-white hover:bg-gray-900 transition-colors duration-300">Home</a> 
+      <a href="works" class="block p-3 text-white hover:bg-gray-900 transition-colors duration-300">Works</a> 
+      <a href="about" class="block p-3 text-white hover:bg-gray-900 transition-colors duration-300">About</a> 
     </div>
   </div>
 </nav>

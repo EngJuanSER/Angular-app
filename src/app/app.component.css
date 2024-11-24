@@ -7,7 +7,7 @@
   left: 0;
   width: 100%;
   height: 100%;
-  background-color: #150016; /* primary */
+  background-color: black; /* primary */
   transform: translateY(-100%);
   transition: transform 0.8s ease-in-out;
   z-index: 1000;
@@ -51,9 +51,9 @@
   }
 }
 .spinner {
-  @apply p-1 animate-spin drop-shadow-lg bg-gradient-to-bl from-primary via-secondary to-accent1 w-6 h-6 aspect-square rounded-full;
+  @apply p-1 animate-spin drop-shadow-lg bg-gradient-to-bl from-black via-gray-500 to-black w-6 h-6 aspect-square rounded-full;
 }
 
 .spinner-inner {
-  @apply rounded-full h-full w-full bg-primary;
+  @apply rounded-full h-full w-full bg-black;
 }
