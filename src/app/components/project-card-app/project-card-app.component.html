@@ -18,16 +18,13 @@
     </div>
   
     <div class="flex justify-between items-center mt-4">
-      <!-- Lenguajes (Izquierda) -->
       <div class="lenguages shadow-inherit">
         <ng-container *ngFor="let lang of project.languages; let i = index">
           {{ lang.name }}<span *ngIf="i < project.languages.length - 1"> + </span>
         </ng-container>
       </div>
   
-      <!-- Iconos GitHub y Demo (Derecha) -->
       <div class="flex items-center gap-5">
-        <!-- Icono GitHub -->
         <div class="flex flex-col items-center">
           <a [href]="project.githubLink" target="_blank" aria-label="github" class="hover:text-gray-500 transition-colors duration-300">
             <i class="fab fa-github text-2xl icon-size"></i>

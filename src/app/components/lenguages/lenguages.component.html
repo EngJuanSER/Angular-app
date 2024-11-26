@@ -1,0 +1,65 @@
+<section id="tools" class="pb-14">
+  <div class="mx-auto w-full px-4 md:max-w-4xl lg:max-w-7xl">
+    <ng-container *ngFor="let word1 of 'Some of my favourite tools'.split(' ')">
+        <span class="word text-3xl font-bold text-black mb-12 text-center animate-fade-in">
+          <ng-container *ngFor="let char of word1.split('')">
+            <span class="hover-rotate">{{ char }}</span>
+          </ng-container>
+        </span>&nbsp;
+      </ng-container>
+    <div class="mx-auto mt-8 flex max-w-5xl flex-wrap items-center justify-center gap-x-16 gap-y-8">
+      <div class="tool-item">
+        <img src="/tools/Angular.svg" alt="Angular" class="tool">
+        <p class="tool-title">Angular</p>
+      </div>
+      <div class="tool-item">
+        <img src="/tools/c++.svg" alt="C++" class="tool">
+        <p class="tool-title">C++</p>
+      </div>
+      <div class="tool-item">
+        <img src="/tools/Github.svg" alt="GitHub" class="tool">
+         <p class="tool-title">GitHub</p>
+      </div>
+      <div class="tool-item">
+        <img src="/tools/Html.svg" alt="HTML" class="tool">
+        <p class="tool-title">HTML</p>
+      </div>
+      <div class="tool-item">
+        <img src="/tools/Java.svg" alt="Java" class="tool">
+        <p class="tool-title">Java</p>
+      </div>
+      <div class="tool-item">
+        <img src="/tools/Latex.svg" alt="LaTeX" class="tool">
+        <p class="tool-title">LaTeX</p>
+      </div>
+      <div class="tool-item">
+        <img src="/tools/Linux.svg" alt="Linux" class="tool">
+        <p class="tool-title">Linux</p>
+      </div>
+      <div class="tool-item">
+        <img src="/tools/Numpy.svg" alt="NumPy" class="tool">
+        <p class="tool-title">NumPy</p>
+      </div>
+      <div class="tool-item">
+        <img src="/tools/Pandas.svg" alt="Pandas" class="tool">
+        <p class="tool-title">Pandas</p>
+      </div>
+      <div class="tool-item">
+        <img src="/tools/Photoshop.svg" alt="Photoshop" class="tool">
+        <p class="tool-title">Photoshop</p>
+      </div>
+      <div class="tool-item">
+        <img src="/tools/Postgres.svg" alt="PostgreSQL" class="tool">
+        <p class="tool-title">PostgreSQL</p>
+      </div>
+      <div class="tool-item">
+        <img src="/tools/Python.svg" alt="Python" class="tool">
+        <p class="tool-title">Python</p>
+      </div>
+      <div class="tool-item">
+        <img src="/tools/Typescript.svg" alt="TypeScript" class="tool">
+        <p class="tool-title">TypeScript</p>
+      </div>
+    </div>
+  </div>
+</section>

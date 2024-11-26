@@ -1,0 +1,13 @@
+.tool{
+ width: 65px;
+ height: 100px;
+}
+
+.tool-item{
+    width: 65px;
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}

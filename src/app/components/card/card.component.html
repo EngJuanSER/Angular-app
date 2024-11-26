@@ -1,11 +1,12 @@
 <div class="card-container">
+  <h1 class="project-name">{{ project.name }}</h1>
+
   <div class="image-carousel">
     <img [src]="project.images[currentImage]" alt="{{ project.name }}" />
     <button class="prev" (click)="prevImage()">&#10094;</button>
     <button class="next" (click)="nextImage()">&#10095;</button>
   </div>
   
-  <h1 class="project-name">{{ project.name }}</h1>
   <p class="project-description">{{ project.description }}</p>
   
   <div class="icon-container">

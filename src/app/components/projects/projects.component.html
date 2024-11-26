@@ -1,6 +1,12 @@
-<section class="bg-transparent py-28 min-h-screen overflow-y-auto bg-gray-300 font-comic">
+<section class="bg-transparent py-28 min-h-screen overflow-y-auto">
   <div class="container mx-auto">
-    <h2 class="text-3xl font-bold text-black mb-12 text-center animate-fade-in">Proyectos Recientes</h2>
+    <ng-container *ngFor="let word1 of 'Recent projects'.split(' ')">
+      <span class="word text-3xl font-bold text-black mb-12 text-center animate-fade-in">
+        <ng-container *ngFor="let char of word1.split('')">
+          <span class="hover-rotate">{{ char }}</span>
+        </ng-container>
+      </span>&nbsp;
+    </ng-container>
     <div class="flex flex-wrap justify-center gap-6">
       <app-card *ngFor="let project of projects" [project]="project"></app-card>
     </div>
