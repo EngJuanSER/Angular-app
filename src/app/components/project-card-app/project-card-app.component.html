@@ -1,0 +1,39 @@
+<div class="w-full max-w-sm p-6 bg-white duration-500 border border-[#63666b] rounded-lg space-y-4 hover-animate flex flex-col justify-between">
+    <!-- Parte Superior -->
+    <div>
+      <div class="flex items-center gap-2">
+        <div class="w-10">
+          <img [src]="project.languages[0].icon" [alt]="project.languages[0].name" class="language-icon" />
+        </div>
+        <span class="text-gray-600 font-bold text-xl">+</span>
+        <div class="w-[38px] ml-0.5">
+          <img [src]="project.languages[1].icon" [alt]="project.languages[1].name" class="language-icon" />
+        </div>
+      </div>
+      <h1 class="capitalize text-gray-1000 font-medium text-lg mt-4">{{ project.name }}</h1>
+      <div class="w-full mx-auto border border-[#27344a] rounded-lg overflow-hidden mt-2">
+        <img [src]="project.image" [alt]="project.name" class="w-full h-auto" />
+      </div>
+      <p class="text-gray-800 text-sm mt-2">{{ project.description }}</p>
+    </div>
+  
+    <div class="flex justify-between items-center mt-4">
+      <!-- Lenguajes (Izquierda) -->
+      <div class="lenguages shadow-inherit">
+        <ng-container *ngFor="let lang of project.languages; let i = index">
+          {{ lang.name }}<span *ngIf="i < project.languages.length - 1"> + </span>
+        </ng-container>
+      </div>
+  
+      <!-- Iconos GitHub y Demo (Derecha) -->
+      <div class="flex items-center gap-5">
+        <!-- Icono GitHub -->
+        <div class="flex flex-col items-center">
+          <a [href]="project.githubLink" target="_blank" aria-label="github" class="hover:text-gray-500 transition-colors duration-300">
+            <i class="fab fa-github text-2xl icon-size"></i>
+          </a>
+          <span class="text-gray-900 text-xs mt-1">Git</span>
+        </div>
+      </div>
+    </div>
+  </div>

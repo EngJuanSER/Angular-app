@@ -30,4 +30,18 @@
     background-repeat: no-repeat;
     background-color: #FFE3D8;
   }
+
+  .hover-rotate {
+    display: inline-block;
+    transition: transform 0.2s ease;
+  }
+  
+  .hover-rotate:hover {
+    transform: scaleX(1.4) rotate(7deg);
+  }
+  
+  .word {
+    display: inline-block;
+    white-space: nowrap;
+  }
 }

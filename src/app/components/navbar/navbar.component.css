@@ -3,8 +3,12 @@
   display: block;
 }
 
+.md\:hidden.ng-trigger.ng-trigger {
+  max-height: 500px; 
+  opacity: 1;
+}
 
 .hover\:text-accent1:hover {
   --tw-text-opacity: 1;
-  color: rgb(104, 104, 104)  /**/;
+  color: rgb(104, 104, 104);
 }

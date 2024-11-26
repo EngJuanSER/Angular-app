@@ -2,11 +2,15 @@
 import { Component, OnInit, HostListener, ElementRef, Renderer2 } from '@angular/core';
 import { HttpClient, HttpClientModule } from '@angular/common/http';
 import { DomSanitizer, SafeHtml } from '@angular/platform-browser';
+import { ProjectsComponent } from '../projects/projects.component';
+import { CommonModule } from '@angular/common';
+import { LenguagesComponent } from '../lenguages/lenguages.component';
+
 
 @Component({
   selector: 'app-home',
   standalone: true,
-  imports: [HttpClientModule], // Importar HttpClientModule aquí
+  imports: [ProjectsComponent,HttpClientModule, CommonModule, LenguagesComponent],
   templateUrl: './home.component.html',
   styleUrls: ['./home.component.css']
 })

@@ -1,0 +1,33 @@
+.icon-size {
+    width: 24px;
+    height: 24px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  
+.w-full.max-w-sm {
+  animation: fadeIn 1s ease-out;
+}
+
+.hover-animate:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+
+  
+}
+.border{
+  border-width: 2px;
+}
+
+.lenguages {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 1px;
+  font-size: 13px;
+  color: rgb(73, 73, 73);
+  font-weight: 1000;
+}

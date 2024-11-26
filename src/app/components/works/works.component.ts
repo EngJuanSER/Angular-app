@@ -1,6 +1,7 @@
 import { CommonModule } from '@angular/common';
 import { Component, OnInit} from '@angular/core';
 import { ProjectCardComponent } from '../project-card/project-card.component';
+import { ProjectCardAppComponent } from '../project-card-app/project-card-app.component';
 
 interface Language {
   name: string;
@@ -20,7 +21,7 @@ interface Project {
 @Component({
   selector: 'app-works',
   standalone: true,
-  imports: [CommonModule, ProjectCardComponent],
+  imports: [CommonModule, ProjectCardComponent, ProjectCardAppComponent],
   templateUrl: './works.component.html',
   styleUrl: './works.component.css'
 })

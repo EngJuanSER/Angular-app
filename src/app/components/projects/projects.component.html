@@ -1,0 +1,8 @@
+<section class="bg-transparent py-28 min-h-screen overflow-y-auto bg-gray-300 font-comic">
+  <div class="container mx-auto">
+    <h2 class="text-3xl font-bold text-black mb-12 text-center animate-fade-in">Proyectos Recientes</h2>
+    <div class="flex flex-wrap justify-center gap-6">
+      <app-card *ngFor="let project of projects" [project]="project"></app-card>
+    </div>
+  </div>
+</section>
