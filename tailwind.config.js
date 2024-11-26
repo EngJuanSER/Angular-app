@@ -3,6 +3,9 @@ module.exports = {
   content: ["./src/**/*.{html,js}"],
   theme: {
     extend: {
+      fontFamily: {
+        'comic': ['"Comic Sans MS"', 'sans-serif'],
+      },
       colors: {
         primary: "#150016",
         secondary: "#29104A",

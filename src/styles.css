@@ -2,10 +2,20 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-
+@layer base {
+    body {
+      @apply font-comic;
+    }
+  }
+  
 ::-webkit-scrollbar {
     display: none;
 }
-body {
-    font-family: 'Comic Sans MS', cursive, sans-serif;
+
+
+.background{
+    background-color: #c2c2c2;
+    opacity: 0.9;
+    background-size: 50px 50px;
+    background-image:  repeating-linear-gradient(0deg, #888888, #777777 0.1px, #e5e5f7 0.6px, #e5e5f7);
 }
