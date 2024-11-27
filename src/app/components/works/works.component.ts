@@ -26,16 +26,28 @@ interface Project {
   styleUrl: './works.component.css'
 })
 export class WorksComponent implements OnInit {
-  projects: Project[] = [];
-  maxProjects: number = this.projects.length;
+  projectsweb: Project[] = [];
+  projectsapp: Project[] = [];
+  
   ngOnInit(): void {
-    this.cargarProyectos();
+    this.cargarProyectosWeb();
+    this.cargarProyectosApp();
   }
-  cargarProyectos(): void {
-    fetch('projects.json')
+  cargarProyectosWeb(): void {
+    fetch('projectsweb.json')
       .then(response => response.json())
       .then(data => {
-        this.projects = data;
+        this.projectsweb = data;
+      })
+      .catch(error => {
+        console.error('Error al cargar los proyectos:', error);
+      });
+  }
+  cargarProyectosApp(): void {
+    fetch('projectsapp.json')
+      .then(response => response.json())
+      .then(data => {
+        this.projectsapp = data;
       })
       .catch(error => {
         console.error('Error al cargar los proyectos:', error);

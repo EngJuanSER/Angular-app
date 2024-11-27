@@ -1,0 +1,56 @@
+[
+  {
+    "id": 1,
+    "name": "Artesanias",
+    "description": "Descripción detallada del Proyecto unoo.",
+    "languages": [
+      {
+        "name": "Angular",
+        "icon": "icons/Angular.svg"
+      },
+      {
+        "name": "TypeScript",
+        "icon": "icons/Typescript.svg"
+      }
+    ],
+    "githubLink": "https://github.com/TU_USUARIO/proyecto-unoo",
+    "demoLink": "https://proyecto-unoo.demo.com",
+    "image": "images/proyecto-unoo.png"
+  },
+  {
+    "id": 2,
+    "name": "Nose",
+    "description": "Descripción detallada del Proyecto Dos.",
+    "languages": [
+      {
+        "name": "React",
+        "icon": "icons/React.svg"
+      },
+      {
+        "name": "JavaScript",
+        "icon": "icons/Javascript.svg"
+      }
+    ],
+    "githubLink": "https://github.com/TU_USUARIO/proyecto-dos",
+    "demoLink": "https://proyecto-dos.demo.com",
+    "image": "images/proyecto-dos.png"
+  },
+  {
+    "id": 2,
+    "name": "Aun lo pienso",
+    "description": "Descripción detallada del Proyecto Dos.",
+    "languages": [
+      {
+        "name": "React",
+        "icon": "icons/React.svg"
+      },
+      {
+        "name": "JavaScript",
+        "icon": "icons/Javascript.svg"
+      }
+    ],
+    "githubLink": "https://github.com/TU_USUARIO/proyecto-dos",
+    "demoLink": "https://proyecto-dos.demo.com",
+    "image": "images/proyecto-dos.png"
+  }
+]
