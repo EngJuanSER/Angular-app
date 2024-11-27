@@ -37,20 +37,20 @@
   },
   {
     "id": 2,
-    "name": "Aun lo pienso",
-    "description": "Descripción detallada del Proyecto Dos.",
+    "name": "Portfolio",
+    "description": "This repository contains the personal portfolio of Juan Manuel Serrano Rodríguez, a Systems Engineering student.",
     "languages": [
       {
-        "name": "React",
-        "icon": "icons/React.svg"
+        "name": "Angular",
+        "icon": "icons/Angular.svg"
       },
       {
-        "name": "JavaScript",
-        "icon": "icons/Javascript.svg"
+        "name": "TypeScript",
+        "icon": "icons/Typescript.svg"
       }
     ],
-    "githubLink": "https://github.com/TU_USUARIO/proyecto-dos",
-    "demoLink": "https://proyecto-dos.demo.com",
-    "image": "images/proyecto-dos.png"
+    "githubLink": "https://github.com/EngJuanSER/Angular-app",
+    "demoLink": "https://juanser.vercel.app/",
+    "image": "images/portfolio.png"
   }
 ]
