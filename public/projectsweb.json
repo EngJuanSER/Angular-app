@@ -15,7 +15,7 @@
     ],
     "githubLink": "https://github.com/TU_USUARIO/proyecto-unoo",
     "demoLink": "https://proyecto-unoo.demo.com",
-    "image": "images/proyecto-unoo.png"
+    "image": "images-projects/proyecto-unoo.png"
   },
   {
     "id": 2,
@@ -33,7 +33,7 @@
     ],
     "githubLink": "https://github.com/TU_USUARIO/proyecto-dos",
     "demoLink": "https://proyecto-dos.demo.com",
-    "image": "images/proyecto-dos.png"
+    "image": "images-projects/proyecto-dos.png"
   },
   {
     "id": 2,
@@ -51,6 +51,6 @@
     ],
     "githubLink": "https://github.com/EngJuanSER/Angular-app",
     "demoLink": "https://juanser.vercel.app/",
-    "image": "images/portfolio.png"
+    "image": "images-projects/portfolio.png"
   }
 ]
