@@ -5,7 +5,7 @@
       "description": "Descripción detallada del Proyecto Uno.",
       "githubLink": "https://github.com/TU_USUARIO/proyecto-uno",
       "demoLink": "https://proyecto-uno.demo.com",
-      "images-projects": ["images-projects/proyecto-uno.png", "images-projects/proyecto-uno-2.png"]
+      "images": ["images/proyecto-uno.png", "images/portfolio.png"]
     },    
     {
     "id": 2,
@@ -13,7 +13,7 @@
     "description": "Descripción detallada del Proyecto Uno.",
     "githubLink": "https://github.com/TU_USUARIO/proyecto-uno",
     "demoLink": "https://proyecto-uno.demo.com",
-    "images-projects": ["images-projects/proyecto-uno.png", "images-projects/proyecto-uno-2.png"]
+    "images": ["images/proyecto-uno.png", "images/proyecto-uno-2.png"]
     },    
     {
     "id": 1,
@@ -21,6 +21,6 @@
     "description": "Descripción detallada del Proyecto Uno.",
     "githubLink": "https://github.com/TU_USUARIO/proyecto-uno",
     "demoLink": "https://proyecto-uno.demo.com",
-    "images-projects": ["images-projects/proyecto-uno.png", "images-projects/proyecto-uno-2.png"]
+    "images": ["images/proyecto-uno.png", "images/proyecto-uno-2.png"]
     }
   ]
