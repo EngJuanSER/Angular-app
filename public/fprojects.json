@@ -1,26 +1,17 @@
 [
     {
       "id": 1,
-      "name": "Proyecto Uno",
-      "description": "Descripción detallada del Proyecto Uno.",
-      "githubLink": "https://github.com/TU_USUARIO/proyecto-uno",
-      "demoLink": "https://proyecto-uno.demo.com",
-      "images": ["images/proyecto-uno.png", "images/portfolio.png"]
+      "name": "Habitabilidad Ruido",
+      "description": "Simulation of a program to determine the habitability of a building based on the levels and propagation of noise in the spaces mentioned.",
+      "githubLink": "https://github.com/EngJuanSER/Habitabilidad-Ruido",
+      "images": ["images/principal.png", "images/grafoInicial.png", "images/reporteInicial", "images/grafoSolucion.png", "images/reporteSolucion2.png"]
     },    
     {
-    "id": 2,
-    "name": "Proyecto Uno",
-    "description": "Descripción detallada del Proyecto Uno.",
-    "githubLink": "https://github.com/TU_USUARIO/proyecto-uno",
-    "demoLink": "https://proyecto-uno.demo.com",
-    "images": ["images/proyecto-uno.png", "images/proyecto-uno-2.png"]
-    },    
-    {
-    "id": 1,
-    "name": "Proyecto Uno",
-    "description": "Descripción detallada del Proyecto Uno.",
-    "githubLink": "https://github.com/TU_USUARIO/proyecto-uno",
-    "demoLink": "https://proyecto-uno.demo.com",
-    "images": ["images/proyecto-uno.png", "images/proyecto-uno-2.png"]
+      "id": 2,
+      "name": "Portfolio",
+      "description": "This repository contains the personal portfolio of Juan Manuel Serrano Rodríguez, a Systems Engineering student.",
+      "githubLink": "https://github.com/EngJuanSER/Angular-app",
+      "demoLink": "https://juanser.vercel.app/",
+      "image": "images/portfolio.png"
     }
-  ]
+]

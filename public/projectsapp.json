@@ -1,56 +1,31 @@
 [
   {
     "id": 1,
-    "name": "Proyecto unoo",
-    "description": "Descripción detallada del Proyecto unoo.",
+    "name": "Habitabilidad Ruido",
+    "description": "Simulation of a program to determine the habitability of a building based on the levels and propagation of noise in the spaces mentioned.",
     "languages": [
       {
-        "name": "Angular",
-        "icon": "icons/Angular.svg"
-      },
-      {
-        "name": "TypeScript",
-        "icon": "icons/Typescript.svg"
+        "name": "Python",
+        "icon": "icons/Python.svg"
       }
     ],
-    "githubLink": "https://github.com/TU_USUARIO/proyecto-unoo",
-    "demoLink": "https://proyecto-unoo.demo.com",
-    "image": "images/proyecto-unoo.png"
+    "githubLink": "https://github.com/EngJuanSER/Habitabilidad-Ruido",
+    "images": ["images/principal.png", "images/grafoInicial.png", "images/reporteInicial", "images/grafoSolucion.png", "images/reporteSolucion2.png"]
   },
   {
     "id": 2,
-    "name": "Proyecto Dos",
-    "description": "Descripción detallada del Proyecto Dos.",
+    "name": "Data science explore",
+    "description": "Approach to data science with exercises related to the use of python and useful libraries such as pandas.",
     "languages": [
       {
-        "name": "React",
-        "icon": "icons/React.svg"
+        "name": "Python",
+        "icon": "icons/Python.svg"
       },
       {
-        "name": "JavaScript",
-        "icon": "icons/Javascript.svg"
+        "name": "JupyterNotebook",
+        "icon": "icons/Jupyter.svg"
       }
     ],
-    "githubLink": "https://github.com/TU_USUARIO/proyecto-dos",
-    "demoLink": "https://proyecto-dos.demo.com",
-    "image": "images/proyecto-dos.png"
-  },
-  {
-    "id": 2,
-    "name": "Proyecto Dos",
-    "description": "Descripción detallada del Proyecto Dos.",
-    "languages": [
-      {
-        "name": "React",
-        "icon": "icons/React.svg"
-      },
-      {
-        "name": "JavaScript",
-        "icon": "icons/Javascript.svg"
-      }
-    ],
-    "githubLink": "https://github.com/TU_USUARIO/proyecto-dos",
-    "demoLink": "https://proyecto-dos.demo.com",
-    "image": "images/proyecto-dos.png"
+    "githubLink": "https://github.com/EngJuanSER/data-science"
   }
 ]
