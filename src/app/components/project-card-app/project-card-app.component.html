@@ -5,7 +5,7 @@
         <div class="w-10">
           <img [src]="project.languages[0].icon" [alt]="project.languages[0].name" class="language-icon" />
         </div>
-        <span *ngIf="project && project.languages && project.languages.length > 1" class="text-gray-600 font-bold text-xl">+</span>
+        <span *ngIf="project.languages.length > 1" class="text-gray-600 font-bold text-xl">+</span>
         <div class="w-[38px] ml-0.5">
           <img [src]="project.languages[1].icon" [alt]="project.languages[1].name" class="language-icon" />
         </div>
