@@ -13,7 +13,6 @@ interface Project {
   image: string
   languages: Language[];
   githubLink: string;
-  demoLink: string;
 }
 
 @Component({
