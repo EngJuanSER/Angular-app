@@ -12,6 +12,6 @@
       "description": "This repository contains the personal portfolio of Juan Manuel Serrano Rodríguez, a Systems Engineering student.",
       "githubLink": "https://github.com/EngJuanSER/Angular-app",
       "demoLink": "https://juanser.vercel.app/",
-      "image": "images/portfolio.png"
+      "images": ["images/portfolio.png"]
     }
 ]

@@ -38,6 +38,7 @@ export class WorksComponent implements OnInit {
       .then(response => response.json())
       .then(data => {
         this.projectsweb = data;
+        console.log(this.projectsweb);
       })
       .catch(error => {
         console.error('Error al cargar los proyectos:', error);
@@ -48,6 +49,7 @@ export class WorksComponent implements OnInit {
       .then(response => response.json())
       .then(data => {
         this.projectsapp = data;
+        console.log(this.projectsapp);
       })
       .catch(error => {
         console.error('Error al cargar los proyectos:', error);

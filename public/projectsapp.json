@@ -10,7 +10,7 @@
       }
     ],
     "githubLink": "https://github.com/EngJuanSER/Habitabilidad-Ruido",
-    "images": ["images/principal.png", "images/grafoInicial.png", "images/reporteInicial.png", "images/grafoSolucion.png", "images/reporteSolucion2.png"]
+    "image": "images/grafoInicial.png"
   },
   {
     "id": 2,
@@ -20,10 +20,6 @@
       {
         "name": "Python",
         "icon": "icons/Python.svg"
-      },
-      {
-        "name": "JupyterNotebook",
-        "icon": "icons/Jupyter.svg"
       }
     ],
     "githubLink": "https://github.com/EngJuanSER/data-science"

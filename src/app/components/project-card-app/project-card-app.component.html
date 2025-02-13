@@ -2,16 +2,15 @@
     <!-- Parte Superior -->
     <div>
       <div class="flex items-center gap-2">
-        <div class="w-10">
-          <img [src]="project.languages[0].icon" [alt]="project.languages[0].name" class="language-icon" />
-        </div>
-        <span *ngIf="project.languages.length > 1" class="text-gray-600 font-bold text-xl">+</span>
-        <div class="w-[38px] ml-0.5">
-          <img [src]="project.languages[1].icon" [alt]="project.languages[1].name" class="language-icon" />
-        </div>
+        <ng-container *ngFor="let lang of project.languages; let i = index">
+          <div class="w-10">
+            <img [src]="lang.icon" [alt]="lang.name" class="language-icon" />
+          </div>
+          <span *ngIf="i < project.languages.length - 1" class="text-gray-600 font-bold text-xl">+</span>
+        </ng-container>
       </div>
       <h1 class="capitalize text-gray-1000 font-medium text-lg mt-4">{{ project.name }}</h1>
-      <div class="w-full mx-auto border border-[#27344a] rounded-lg overflow-hidden mt-2">
+      <div *ngIf="project.image" class="w-full mx-auto border border-[#27344a] rounded-lg overflow-hidden mt-2">
         <img [src]="project.image" [alt]="project.name" class="w-full h-auto" />
       </div>
       <p class="text-gray-800 text-sm mt-2">{{ project.description }}</p>
