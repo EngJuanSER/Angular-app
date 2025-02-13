@@ -14,12 +14,12 @@
       <i class="fab fa-github icon-size"></i>
       <span>GitHub</span>
     </a>
-    <a [href]="project.demoLink" target="_blank" aria-label="Demo" class="icon-link">
+    <a *ngIf="project.demoLink" [href]="project.demoLink" target="_blank" aria-label="Demo" class="icon-link">
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="icon-size">
-        <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 
-                 10-4.48 10-10S17.52 2 12 2zm-1 17.93c-3.95-.49-7-3.96-7-7.93 
-                 0-3.87 3.13-7 7-7s7 3.13 7 7c0 3.97-3.05 7.44-7 
-                 7.93z"/>
+      <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 
+           10-4.48 10-10S17.52 2 12 2zm-1 17.93c-3.95-.49-7-3.96-7-7.93 
+           0-3.87 3.13-7 7-7s7 3.13 7 7c0 3.97-3.05 7.44-7 
+           7.93z"/>
       </svg>
       <span>Demo</span>
     </a>

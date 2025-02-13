@@ -4,7 +4,7 @@
       "name": "Habitabilidad Ruido",
       "description": "Simulation of a program to determine the habitability of a building based on the levels and propagation of noise in the spaces mentioned.",
       "githubLink": "https://github.com/EngJuanSER/Habitabilidad-Ruido",
-      "images": ["images/principal.png", "images/grafoInicial.png", "images/reporteInicial", "images/grafoSolucion.png", "images/reporteSolucion2.png"]
+      "images": ["images/principal.png", "images/grafoInicial.png", "images/reporteInicial.png", "images/grafoSolucion.png", "images/reporteSolucion2.png"]
     },    
     {
       "id": 2,
