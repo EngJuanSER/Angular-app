@@ -16,5 +16,23 @@
     "githubLink": "https://github.com/EngJuanSER/Angular-app",
     "demoLink": "https://juanser.vercel.app/",
     "image": "images/portfolio.png"
+  },
+  {
+    "id": 2,
+    "name": "ArtesaniasBGA",
+    "description": "This project consists of an e-commerce platform that allows users to purchase products online, while integrating inventories with physical points of sale and analyzing customer behavior. The system architecture is event-based and organized by layers.",
+    "languages": [
+      {
+        "name": "Next.js",
+        "icon": "icons/Next.svg"
+      },
+      {
+        "name": "TypeScript",
+        "icon": "icons/Typescript.svg"
+      }
+    ],
+    "githubLink": "https://github.com/EngJuanSER/ArtesaniasBGA-2",
+    "demoLink": "https://artesaniasbga.vercel.app/",
+    "image": "images/artesanias.png"
   }
 ]
