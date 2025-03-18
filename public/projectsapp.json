@@ -23,5 +23,17 @@
       }
     ],
     "githubLink": "https://github.com/EngJuanSER/data-science"
+  },
+  {
+    "id": 3,
+    "name": "Pensieve",
+    "description": "All-in-one desktop app for task management, document organization and Post-it style notes.",
+    "languages": [
+      {
+        "name": "Python",
+        "icon": "icons/Flutter.svg"
+      }
+    ],
+    "githubLink": "https://github.com/EngJuanSER/data-science"
   }
 ]

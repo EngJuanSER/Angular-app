@@ -8,11 +8,10 @@
     },    
     {
       "id": 2,
-      "name": "Portfolio",
-      "description": "This repository contains the personal portfolio of Juan Manuel Serrano Rodríguez, a Systems Engineering student.",
-      "githubLink": "https://github.com/EngJuanSER/Angular-app",
-      "demoLink": "https://juanser.vercel.app/",
-      "images": ["images/portfolio.png"]
+      "name": "Flutter-App",
+      "description": "This repository contains the All-in-one desktop app for task management, document organization and Post-it style notes.",
+      "githubLink": "https://github.com/EngJuanSER/Pensieve",
+      "images": ["images/dashboard.png","images/taskmanager.png", "images/documents.png", "images/notes.png"]
     },
     {
       "id": 3,
