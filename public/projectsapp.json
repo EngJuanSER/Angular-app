@@ -30,7 +30,7 @@
     "description": "All-in-one desktop app for task management, document organization and Post-it style notes.",
     "languages": [
       {
-        "name": "Python",
+        "name": "Flutter",
         "icon": "icons/Flutter.svg"
       }
     ],
