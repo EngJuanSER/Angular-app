@@ -52,5 +52,23 @@
     "githubLink": "https://github.com/EngJuanSER/ScrappingML",
     "demoLink": "https://scrapping-ml.vercel.app",
     "image": "images/scraping.png"
-  }
+  },
+      {
+      "id": 4,
+      "name": "Visenture",
+      "description": "Visenture is a comprehensive investment management and stock trading application designed to simulate real-time stock market trading. It allows users to buy and sell stocks, manage their portfolios, and access market analysis. The application is divided into two main components: a robust backend developed with NestJS and an interactive frontend built with Angular.",
+      "languages": [
+        {
+          "name": "Angular",
+          "icon": "icons/Angular.svg"
+        },
+        {
+          "name": "NestJS",
+          "icon": "icons/Nest.svg"
+        }
+      ],
+      "githubLink": "https://github.com/EngJuanSER/Acciones-UD-Visenture",
+      "demoLink": "https://acciones-ud-visenture.vercel.app/",
+      "images": ["images/home.png"]
+    }
 ]

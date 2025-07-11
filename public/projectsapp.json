@@ -36,5 +36,18 @@
       }
     ],
     "githubLink": "https://github.com/EngJuanSER/data-science"
+  },
+  {
+    "id": 4,
+    "name": "MacraScript",
+    "description": "MacraScript is a simplified language designed to describe macramé bracelet patterns in a natural and easy-to-understand way.",
+    "languages": [
+      {
+        "name": "Python",
+        "icon": "icons/Python.svg"
+      }
+    ],
+    "githubLink": "https://github.com/EngJuanSER/computer-science/blob/main/Language",
+    "image": "images/macrascript.png"
   }
 ]

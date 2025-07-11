@@ -20,5 +20,14 @@
       "githubLink": "https://github.com/EngJuanSER/ArtesaniasBGA-2",
       "demoLink": "https://artesaniasbga.vercel.app/",
       "images": ["images/artesanias.png", "images/artesanias2.png", "images/artesanias3.png", "images/artesanias4.png"]
+    },
+    {
+      "id": 4,
+      "name": "Visenture",
+      "description": "Visenture is a comprehensive investment management and stock trading application designed to simulate real-time stock market trading. It allows users to buy and sell stocks, manage their portfolios, and access market analysis.",
+      "githubLink": "https://github.com/EngJuanSER/Acciones-UD-Visenture",
+      "demoLink": "https://acciones-ud-visenture.vercel.app/",
+      "images": ["images/home.png", "images/login.png", "images/register.png", "images/markerts.png", "images/markert.png", "images/sell.png", "images/buy.png"]
     }
 ]
+
