@@ -27,7 +27,7 @@
       "description": "Visenture is a comprehensive investment management and stock trading application designed to simulate real-time stock market trading. It allows users to buy and sell stocks, manage their portfolios, and access market analysis.",
       "githubLink": "https://github.com/EngJuanSER/Acciones-UD-Visenture",
       "demoLink": "https://acciones-ud-visenture.vercel.app/",
-      "images": ["images/home.png", "images/login.png", "images/register.png", "images/markerts.png", "images/markert.png", "images/sell.png", "images/buy.png"]
+      "images": ["images/home.png", "images/login.png", "images/register.png", "images/markets.png", "images/market.png", "images/sell.png", "images/buy.png"]
     }
 ]
 
